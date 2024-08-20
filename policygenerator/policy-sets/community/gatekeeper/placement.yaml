@@ -9,3 +9,5 @@ spec:
       labelSelector:
         matchExpressions:
           - {key: "gatekeeper", operator: In, values: ["true"]}
+  clusterSets:
+  - global
